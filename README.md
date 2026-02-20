@@ -57,6 +57,8 @@ streamlit run app/app.py
 - `event_type` (e.g., `rate_change`, `loa_unpaid`, `bonus_payment`)
 - `notes`
 
+![Demo screenshot](docs/screenshots/demo.png)
+
 ## Notes for a production implementation
 - Keep this tool private and behind authentication
 - Store outputs as an auditable “review packet” (e.g., Laserfiche template + metadata fields)
