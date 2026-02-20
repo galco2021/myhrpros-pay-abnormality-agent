@@ -5,6 +5,7 @@ A lightweight **flag → explain → route** prototype that detects paycheck out
 
 **Design stance:** AI supports the process; humans make decisions (final review, approvals, and corrections).  
 **Data policy:** This repository includes **synthetic demo data only**. Do not upload real payroll data to a public app.
+**Live demo:** https://myhrpros-pay-abnormality-agent-4azhvqffjgj7ubrzqosjrz.streamlit.app/
 
 ## What it does
 - Flags pay spikes/drops vs an employee baseline (median of prior periods)
