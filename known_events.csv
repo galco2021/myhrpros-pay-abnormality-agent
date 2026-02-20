@@ -1,0 +1,5 @@
+employee_id,effective_date,event_type,notes
+E1002,2026-01-16,bonus_payment,Annual performance bonus processed this pay period.
+E1003,2026-01-23,loa_unpaid,Unpaid leave (partial week).
+E1003,2025-12-19,rate_change,Approved hourly rate adjustment.
+E1004,2026-02-13,new_hire,New hire added to payroll (example row).
