@@ -1,3 +1,4 @@
+![tests](https://github.com/galco2021/myhrpros-pay-abnormality-agent/actions/workflows/tests.yml/badge.svg)
 # Payroll Pay Abnormality Agent (Demo)
 
 A lightweight **flag → explain → route** prototype that detects paycheck outliers (e.g., $1,500 this week vs typical $500) and produces an explainable exception list for human review.
