@@ -57,7 +57,7 @@ streamlit run app/app.py
 - `event_type` (e.g., `rate_change`, `loa_unpaid`, `bonus_payment`)
 - `notes`
 
-![Demo screenshot](docs/screenshots/demo.png)
+![Demo screenshot](docs/screenshots/Screenshot 2026-02-20 160218.png)
 
 ## Notes for a production implementation
 - Keep this tool private and behind authentication
