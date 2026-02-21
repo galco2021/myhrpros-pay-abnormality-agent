@@ -16,6 +16,14 @@ A lightweight **flag → explain → route** prototype that detects paycheck out
 - Provides a Streamlit UI to upload CSVs and download `pay_anomaly_flags.csv`
 - Includes a one-page PDF sample deliverable and a Laserfiche-style “review packet” export pattern
 
+ ## How to try it in 30 seconds
+1. Open the **Live demo** link above.
+2. In the left sidebar, click **Load included sample files** (synthetic data).
+3. Scroll to **Flagged records** to see the anomalies (including a $1,500 vs ~$500 spike).
+4. Use **Download flags CSV** to export the exception list (for review/audit workflow).
+
+> Tip: Upload your own CSV to test validation—missing columns, bad dates, and duplicate employee+period rows return clear errors/warnings.
+
 ## Repo layout
 ```
 /app
