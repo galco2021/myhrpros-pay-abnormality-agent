@@ -1,15 +1,18 @@
 ![tests](https://github.com/galco2021/myhrpros-pay-abnormality-agent/actions/workflows/tests.yml/badge.svg)
+
 # Payroll Pay Abnormality Agent (Demo)
 
-A lightweight **flag → explain → route** prototype that detects paycheck outliers (e.g., $1,500 this week vs typical $500) and produces an explainable exception list for human review.
+**Live demo:** https://myhrpros-pay-abnormality-agent-4azhvqffjgj7ubrzqosjrz.streamlit.app/
+
+A lightweight **flag → explain → route** prototype that detects paycheck outliers (e.g., $1,500 this week vs a typical $500 baseline) and produces an explainable exception list for **human review**.
 
 **Design stance:** AI supports the process; humans make decisions (final review, approvals, and corrections).  
-**Data policy:** This repository includes **synthetic demo data only**. Do not upload real payroll data to a public app.
-**Live demo:** https://myhrpros-pay-abnormality-agent-4azhvqffjgj7ubrzqosjrz.streamlit.app/
+**Data policy:** This repo uses **synthetic demo data only**. Do not upload real payroll data to a public app.
 
 ## What it does
 - Flags pay spikes/drops vs an employee baseline (median of prior periods)
-- Adds explainability: ratio vs baseline, triggered rules, reviewer checklist
+- Adds explainability: baseline, ratio, triggered rules, and reviewer checklist
+- Includes input validation (clear errors/warnings for missing columns, bad dates, duplicates)
 - Provides a Streamlit UI to upload CSVs and download `pay_anomaly_flags.csv`
 - Includes a one-page PDF sample deliverable and a Laserfiche-style “review packet” export pattern
 
